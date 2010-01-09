@@ -44,3 +44,10 @@ This project can be found on github at the following URL.
 "github.com/fsmanuel/xml_sitemap_generator":http://github.com/fsmanuel/xml_sitemap_generator
 
 Feel free forking the project.
+
+
+h3. Credits
+
+Arne Brachhold, who made the fantastic "Google (XML) Sitemaps Generator for WordPress" which gave me the basic idea - http://www.arnebrachhold.de
+Harry Love, who wrote "Google Sitemaps with Ruby on Rails, Capistrano, and Cron" on his Blog: http://harrylove.org
+
