@@ -4,9 +4,7 @@ This is an approach to get the amazing XML Sitemap Generator for Wordpress to th
 
 h3. Install
 
-@
-script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git
-@
+@script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git@
 
 h3. Usage
 
@@ -14,9 +12,7 @@ Modify config/sitemap_config.yml to your needs
 
 Include the MixinSitemap module in your model
 
-@
-include MixinSitemap
-@
+@include MixinSitemap@
 
 h3. Config
 
@@ -24,6 +20,6 @@ h3. Development
 
 This project can be found on github at the following URL.
 
-http://github.com/fsmanuel/XML-Sitemap-Generator
+"github.com/fsmanuel/XML-Sitemap-Generator":http://github.com/fsmanuel/XML-Sitemap-Generator
 
 Feel free forking the project.
