@@ -1,12 +1,29 @@
-h2. XML Sitemap
+h2. XML Sitemap Generator
 
-Just a proposed standard template for funkensturm. made applications :)
+This is an approach to get the amazing XML Sitemap Generator for Wordpress to the rails world.
 
-h3. Installation
+h3. Install
 
-* Funkenplate works even when you are offline
+@
+script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git
+@
 
 h3. Usage
 
-h3. Example
+Modify config/sitemap_config.yml to your needs
 
+Include the MixinSitemap module in your model
+
+@
+include MixinSitemap
+@
+
+h3. Config
+
+h3. Development
+
+This project can be found on github at the following URL.
+
+http://github.com/fsmanuel/XML-Sitemap-Generator
+
+Feel free forking the project.
