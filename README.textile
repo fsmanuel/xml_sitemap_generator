@@ -9,7 +9,7 @@ The plugin informs Google by pinging the sitemap submit URL google provids (http
 h3. Install
 
 <pre>
-script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git
+script/plugin install git://github.com/fsmanuel/xml_sitemap_generator.git
 </pre>
 
 h3. Usage
@@ -26,6 +26,6 @@ h3. Development
 
 This project can be found on github at the following URL.
 
-"github.com/fsmanuel/XML-Sitemap-Generator":http://github.com/fsmanuel/XML-Sitemap-Generator
+"github.com/fsmanuel/xml_sitemap_generator":http://github.com/fsmanuel/xml_sitemap_generator
 
 Feel free forking the project.
