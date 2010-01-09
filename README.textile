@@ -22,6 +22,15 @@ Include the MixinSitemap module in your model
 include MixinSitemap
 </pre>
 
+Add a method self.find_for_sitemap to restrict what will be added to the sitemap. Default is @find(:all)@
+
+<pre>
+def self.find_for_sitemap
+  find(:all, :conditions => ["status = 1"], :order => "id")
+end
+</pre>
+
+
 h3. Development
 
 This project can be found on github at the following URL.
