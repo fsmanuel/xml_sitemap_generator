@@ -22,6 +22,10 @@ module MixinSitemap
     def self.extended(base)
       base.after_save :generate_sitemap
     end
+    
+    def find_for_sitemap
+      find(:all)
+    end
 
   end
   

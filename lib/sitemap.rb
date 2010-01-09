@@ -30,7 +30,7 @@ class Sitemap
       end
 
       @SITEMAP_CONFIG[:models].each do |sitemap_model|
-        urls = sitemap_model.camelize.constantize.find(:all, :order => "id")
+        urls = sitemap_model.camelize.constantize.find_for_sitemap
         
         urls.each do |url|
           xml.url do
