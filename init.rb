@@ -1,2 +1,2 @@
 require 'sitemap'
-require 'mixinSitemap'
+require 'mixin_sitemap'
