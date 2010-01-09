@@ -9,7 +9,7 @@ The plugin informs Google by pinging the sitemap submit URL google provids (http
 h3. Install
 
 <pre>
-	script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git
+script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git
 </pre>
 
 h3. Usage
@@ -19,7 +19,7 @@ Modify config/sitemap_config.yml to your needs
 Include the MixinSitemap module in your model
 
 <pre>
-	include MixinSitemap
+include MixinSitemap
 </pre>
 
 h3. Development
