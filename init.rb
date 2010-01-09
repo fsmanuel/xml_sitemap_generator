@@ -1,0 +1,2 @@
+require 'sitemap'
+require 'mixinSitemap'

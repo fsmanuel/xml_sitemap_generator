@@ -1,0 +1,12 @@
+h2. XML Sitemap
+
+Just a proposed standard template for funkensturm. made applications :)
+
+h3. Installation
+
+* Funkenplate works even when you are offline
+
+h3. Usage
+
+h3. Example
+
