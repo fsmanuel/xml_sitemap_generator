@@ -2,9 +2,13 @@ h2. XML Sitemap Generator
 
 This is an approach to get the amazing XML Sitemap Generator for Wordpress to the rails world.
 
+It adds an after_save filter to the model which fires the generate_sitemap method provided by the plugin.
+The sitemap is saved in the public folder as sitemap.xml and a gziped version sitemap.xml.gz.
+The Plugin informs Google by pinging the sitemap submit URL google provids (http://www.google.com/webmasters/tools/ping?sitemap=http://your-site.com/sitemap.xml.gz)
+
 h3. Install
 
-@script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git@
+@@script/plugin install git://github.com/fsmanuel/XML-Sitemap-Generator.git@@
 
 h3. Usage
 
@@ -12,9 +16,7 @@ Modify config/sitemap_config.yml to your needs
 
 Include the MixinSitemap module in your model
 
-@include MixinSitemap@
-
-h3. Config
+@@include MixinSitemap@@
 
 h3. Development
 
