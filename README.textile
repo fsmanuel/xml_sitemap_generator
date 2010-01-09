@@ -14,15 +14,21 @@ script/plugin install git://github.com/fsmanuel/xml_sitemap_generator.git
 
 h3. Usage
 
-Modify config/sitemap_config.yml to your needs
+Modify config/sitemap_config.yml to your needs (models has to be an array)
 
-Include the MixinSitemap module in your model
+<pre>
+production:
+  domain: your-site.com
+  models: ['user', 'content']
+</pre>
+
+Include the MixinSitemap module in every model that should update the sitemap after a change:
 
 <pre>
 include MixinSitemap
 </pre>
 
-Add a method self.find_for_sitemap to restrict what will be added to the sitemap. Default is @find(:all)@
+Add a method self.find_for_sitemap to your models to restrict what will be added to the sitemap. Default is @find(:all)@
 
 <pre>
 def self.find_for_sitemap
