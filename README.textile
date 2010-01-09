@@ -1,4 +1,4 @@
-h2. XML Sitemap Generator
+h2. XML Sitemap Generator for Rails
 
 This is an approach to get the amazing XML Sitemap Generator for Wordpress to the rails world.
 
